@@ -1,0 +1,32 @@
+{
+  "name": "animal",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "guoxl <guoxl@163.com>",
+  "homepage": "https://github.com/06guo/lernaTest#readme",
+  "license": "ISC",
+  "main": "lib/animal.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/06guo/lernaTest.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/animal.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/06guo/lernaTest/issues"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
